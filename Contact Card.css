@@ -1,0 +1,43 @@
+*{
+	margin: 0px;
+	padding: 2px;
+}
+	#wrapper{
+		background-color: lightgrey;
+		width:970px;
+		margin:0px auto;
+		height:auto;
+
+	}
+
+		p{
+			display:none;
+		}
+
+
+		#cards{
+			border:1px solid black;
+			width:300px;
+			height:auto;
+			
+		}
+			.border{
+				border-color:black;
+				border-width:1px;
+				border-style:solid;
+			}
+
+
+		#form{
+			margin-bottom:20px;
+			width:300px;
+			;
+		}
+
+		#cards, #form {
+			/*display:inline-block;*/
+		}
+
+		#form, h2{
+			/*display:block;*/
+		}
